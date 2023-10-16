@@ -1,10 +1,11 @@
 #include <stdio.h>
 int main()
 {	int a;
+    printf("请输入年份：") ; 
 	scanf("%d",&a);
 	if (a%4==0&&a%100!=0||a%400==0)
-	    printf("YES");
+	    printf("闰年");
 	else
-	    printf("NO");
+	    printf("平年");
 	return 0 ;
 } 
